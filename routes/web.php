@@ -14,3 +14,13 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('try', function () {
+    return view('tryview');
+});
+
+
+//Refactor Ejemplos de codeschool
+
+//Route::get('/', 'FarmController@index');
+//Route::resource('farms', 'FarmController');
